@@ -26,6 +26,8 @@ RDEPEND="
 	sys-libs/glibc
 "
 
+CMAKE_IN_SOURCE_BUILD=true
+
 src_prepare() {
 	cmake_src_prepare
 }
@@ -34,7 +36,12 @@ src_configure() {
 	cmake_src_configure
 }
 
+src_compile() {
+	cmake_src_compile
+}
+
 src_install() {
 	systemd_dounit "${FILESDIR}"/udevmon.service
-	cmake_src_install
+	newbin intercept uintercept
+	dobin mux uinput udevmon
 }
