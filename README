@@ -1,4 +1,0 @@
-Installation
-____________
-
-layman -o https://raw.github.com/Z5483/interception-overlay/master/repositories.xml -f -a interception-tools

@@ -4,6 +4,6 @@
         <name>interception-tools</name>
         <description>contains interception tools and its plugins</description>
         <homepage>https://gitlab.com/interception</homepage>
-        <source type="git">https://github.com/Z5483/interception-overlay</source>
+        <source type="git">https://github.com/khuei/interception-overlay</source>
     </repo>
 </repositories>
