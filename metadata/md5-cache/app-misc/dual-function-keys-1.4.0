@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=dual functions key plugin for interception tools
+EAPI=8
+HOMEPAGE=https://gitlab.com/interception/linux/plugins/dual-function-keys
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/interception-tools
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/interception/linux/plugins/dual-function-keys/-/archive/1.4.0/dual-function-keys-1.4.0.tar.bz2
+_md5_=af5dd66fd69533f1918d4000457a481f
